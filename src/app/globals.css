@@ -28,6 +28,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.bg-line {
+  background: #fff;
+  background: linear-gradient(180deg, transparent, #353535);
+  background-position: 50%;
+  background-repeat: repeat-y;
+  background-size: 4px auto;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
