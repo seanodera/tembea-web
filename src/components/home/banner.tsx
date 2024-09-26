@@ -5,16 +5,16 @@ import {AiOutlineGithub} from "react-icons/ai";
 
 export default function Banner() {
 
-    return <section className={'text-center px-8 bg-white'}>
+    return <section className={'text-center md:px-8 bg-white'}>
         <div className={'rounded-xl h-screen bg-cover gap-8 flex flex-col justify-between items-center text-dark'} style={{
             backgroundImage: `url("/cover.jpg")`
         }}>
             <div className={'pt-40 items-center text-center'}>
-                <h1 className={'text-9xl font-semibold'}>
+                <h1 className={'md:text-9xl text-5xl font-semibold'}>
                     Adam & Butler
                 </h1>
-                <h2 className={'text-5xl font-semibold'}>Hallmark of luxury travel</h2>
-                <div className={'px-8 py-4 rounded-full mx-auto mt-16 bg-white text-black text-xl font-light w-max flex gap-4'}>
+                <h2 className={'md:text-5xl text-2xl font-semibold'}>Hallmark of luxury travel</h2>
+                <div className={'px-8 py-4 md:rounded-full rounded-xl mx-auto mt-16 bg-white text-black text-xl font-light w-max flex md:flex-row flex-col gap-4'}>
                     <Link href={'/experience'} className={'flex flex-nowrap items-center gap-2'}>Our
                         Experience <FaChevronCircleRight className={'text-primary'}/> </Link>
                     <Link href={'/journey'} className={'flex items-center gap-2'}>Plan Your

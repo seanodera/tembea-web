@@ -31,7 +31,6 @@ body {
 .bg-line {
   background: #fff;
   background: linear-gradient(180deg, transparent, #353535);
-  background-position: 50%;
   background-repeat: repeat-y;
   background-size: 4px auto;
 }

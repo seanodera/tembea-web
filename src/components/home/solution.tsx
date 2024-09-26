@@ -4,10 +4,10 @@ import {AiFillCiCircle} from "react-icons/ai";
 
 export default function Solution() {
 
-    return <section className="section text-center px-24 py-16">
-        <h1 className="text-8xl font-bold">Why Aviatour</h1>
+    return <section className="section text-center px-7 md:px-24 py-16">
+        <h1 className="md:text-8xl text-5xl font-bold">Why Aviatour</h1>
 
-        <div className={'grid grid-cols-3 items-center bg-line mt-8'}>
+        <div className={'grid grid-cols-1 px-3 md:px-0 md:grid-cols-3 items-center bg-white bg-gradient-to-b from-transparent to-dark bg-[size:4px_auto] bg-repeat-y  bg-right md:bg-center mt-8'}>
             <div className={'col-span-1 py-16 flex items-center'}>
                 <img src={faker.image.urlLoremFlickr({category: 'beach'})} alt={''} className={'rounded-xl aspect-video object-cover'}/>
             </div>

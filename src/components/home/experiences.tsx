@@ -10,8 +10,8 @@ const experiencesTypes = ['All experiences', 'Photography', 'Adventure', 'Celebr
 
 export default function Experiences() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    return <section className={'px-24 my-24 bg-white'}>
-        <div className={'grid grid-cols-3 md:gap-24'}>
+    return <section className={'md:px-24 px-7 my-24 bg-white'}>
+        <div className={'grid grid-cols-1 md:grid-cols-3 md:gap-24 gap-16'}>
             <div>
                 <h2 className={'text-6xl font-bold'}>Africa</h2>
                 <p>
